@@ -1,0 +1,128 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* INDEX CSS*/
+.welcome-container {
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+}
+
+.logo {
+    width: 250px;
+    height: 100px;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.welcome-heading {
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.welcome-quote {
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+}
+
+.role-question {
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+}
+
+.button-container {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.btn-primary {
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+    margin-right: 1rem;
+    background-color: #DC143C;
+    border-color: #DC143C;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #0C0B0B;
+    color: white;
+    padding: 2rem 0;
+}
+
+.footer-heading {
+    color: white;
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+/* Newsletter Signup Styles */
+.form-inline {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+/* Subscribe Button Styles */
+.btn-subscribe {
+    margin-left: 10px;
+    background-color: #DC143C;
+    color: white;
+    border-color: #DC143C;
+}
+
+/* Social Media Links Styles */
+.list-inline-item a {
+    color: #DC143C; /* Crimson color for social media links */
+}
+
+
+#forcontact{
+    text-align: center;
+}
+
+.navbar-brand img {
+    width: 260px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.bs-body-color {
+    background-color: #0C0B0B; /* Change this to your desired background color */
+}
+
+#myImage {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* msie */
+}
+
+/* or */
+
+#wrapper {
+    opacity: 0.9;
+    filter: alpha(opacity=90); /* msie */
+    background-color: #000000;
+}
+/* INDEX CSS END*/
+
+
+/* SIGN UP CSS*/
+
+.sign-in-container {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px auto; /* Center align */
+    max-width: 400px; /* Adjust as needed */
+    background-color: #fff; /* Optional: Add a background color */
+}
+
+.image-container {
+    /* Add your styling for the image container as needed */
+    height: 100vh; /* Set a specific height or adjust as needed */
+    background-image: url('path/to/your/image.jpg'); /* Replace with your image path */
+    background-size: cover;
+}
