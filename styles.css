@@ -11,8 +11,8 @@ body {
 }
 
 .logo {
-    width: 250px;
-    height: 100px;
+    width: 190px;
+    height: 80px;
     margin-top: 1.5rem;
     margin-bottom: 2.5rem;
 }
@@ -116,13 +116,31 @@ body {
     border-radius: 10px;
     padding: 20px;
     margin: 50px auto; /* Center align */
-    max-width: 400px; /* Adjust as needed */
+    width: 500px;
     background-color: #fff; /* Optional: Add a background color */
 }
 
-.image-container {
-    /* Add your styling for the image container as needed */
-    height: 100vh; /* Set a specific height or adjust as needed */
-    background-image: url('path/to/your/image.jpg'); /* Replace with your image path */
+.form-text {
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+    color: #6c757d;
+}
+
+.left-div {
+    width: 40%; /* Adjust width as needed */
+    background-image: url('img/pic3.jpg'); /* Replace 'path/to/your/image.jpg' with the path to your image */
     background-size: cover;
+    background-position: center;
+    display: inline-block;
+    vertical-align: top;
+    height: 100vh;
+}
+
+.right-div {
+    width: 60%; /* Adjust width as needed */
+    background-color: white;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    height: 100vh;
 }
