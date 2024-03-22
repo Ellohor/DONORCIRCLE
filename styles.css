@@ -138,3 +138,8 @@ body {
     padding: 20px;
     height: 100vh;
 }
+
+.side_bar{
+    text-align: left;
+    margin-left: 20px;
+}
