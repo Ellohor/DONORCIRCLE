@@ -147,3 +147,54 @@ body {
 .side_bar_logo{
     max-height: 50px;
 }
+
+.main-card {
+    width: auto;
+    background-color: #f6f6f6;
+    border-color: #f6f6f6;
+    overflow-x: auto;
+    padding: 10px; /* Add padding to create space between cards */
+    margin-right: 20px;
+    
+}
+
+.request-card {
+    width: 10rem; /* Set the width of each request card */
+    background-color: #ffffff; /* Background color for request cards */
+    border-color: #ffffff; /* Border color for request cards */
+    margin-left: 20px;
+    flex: 0 0 auto; /* Prevent cards from shrinking */
+   
+}
+
+.request-card img {
+    height: 150px; /* Set the height of the image in request cards */
+    object-fit: cover;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.urgency-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px; /* Adjust width of urgency indicator */
+    height: 100%;
+    background-color: red; /* Adjust color as needed */
+}
+
+.card-title {
+    margin-bottom: 5px; /* Add margin below card title */
+}
+
+.card-text {
+    margin-bottom: 15px; /* Add margin below card text */
+}
+
+.scrollable_area{
+    overflow-x: auto; /* Enable horizontal scrolling */
+    flex-wrap: nowrap; /* Ensure no wrapping */
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+}
