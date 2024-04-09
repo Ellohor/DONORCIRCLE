@@ -159,7 +159,7 @@ body {
 }
 
 .request-card {
-    width: 10rem; /* Set the width of each request card */
+    width: 250px; /* Set the width of each request card */
     background-color: #ffffff; /* Background color for request cards */
     border-color: #ffffff; /* Border color for request cards */
     margin-left: 20px;
@@ -167,10 +167,7 @@ body {
    
 }
 
-.request-card img {
-    height: 150px; /* Set the height of the image in request cards */
-    object-fit: cover;
-}
+
 
 ::-webkit-scrollbar {
     display: none;
