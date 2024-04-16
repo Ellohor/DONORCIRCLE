@@ -149,14 +149,12 @@ body {
 }
 
 .main-card {
-    width: auto;
+    width: auto !important;
     height: auto;
     background-color: #f6f6f6;
     border-color: #f6f6f6;
     overflow-x: auto;
     padding: 10px; /* Add padding to create space between cards */
-    margin-right: 20px;
-    
 }
 
 .request-card {
@@ -168,7 +166,9 @@ body {
    
 }
 
-
+.card_icons{ 
+    padding-right: 5px;
+}
 
 ::-webkit-scrollbar {
     display: none;
@@ -195,4 +195,29 @@ body {
     overflow-x: auto; /* Enable horizontal scrolling */
     flex-wrap: nowrap; /* Ensure no wrapping */
     -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+}
+
+/* TIMER CSS*/
+
+.timer-container {
+    display: flex;
+}
+
+.timer-box {
+    display: flex;
+}
+
+.timer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px; /* Adjust as needed */
+}
+
+.timer-value {
+    font-size: 80px; /* Adjust as needed */
+}
+
+.timer-label {
+    font-size: 14px; /* Adjust as needed */
 }
