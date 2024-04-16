@@ -150,6 +150,7 @@ body {
 
 .main-card {
     width: auto;
+    height: auto;
     background-color: #f6f6f6;
     border-color: #f6f6f6;
     overflow-x: auto;
