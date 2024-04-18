@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REQUESTS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body class="text-center">
+
+    <!-- Sidebar -->
+    <nav class="navbar navbar-dark flex-column align-items-center fixed-top side_bar">
+        <div class="container-fluid">
+            <a class="navbar-brand mt-3 mb-5 mx-auto" href="#">
+                <img src="img/JUST_LOGO_RED.png" alt="Logo" class="side_bar_logo">
+            </a>
+            <ul class="nav nav-pills sidebar_nav_pills flex-column mt-3 mb-5 side_bar_alignment h6">
+                <li class="nav-item mt-2 mb-2">
+                    <a class="nav-link side_links active" href="#" onclick="setActiveTab(this)" ><i class="bi bi-grid-1x2-fill side_icons"></i>Dashboard</a>
+                </li>
+                <li class="nav-item mt-2 mb-2">
+                    <a class="nav-link side_links" href="#" onclick="setActiveTab(this)" ><i class="bi bi-inboxes-fill side_icons"></i>Requests</a>
+                </li>
+                <li class="nav-item mt-2 mb-2">
+                    <a class="nav-link side_links" href="#" onclick="setActiveTab(this)" ><i class="bi bi-archive-fill side_icons"></i>History</a>
+                </li>
+                <li class="nav-item mt-2 mb-5">
+                    <a class="nav-link side_links" href="#" onclick="setActiveTab(this)" ><i class="bi bi-gear-fill side_icons"></i>Settings</a>
+                </li>
+            </ul>
+            <div class="mt-5 mx-auto">
+            <button class="btn mt-5 mb-2 mx-auto" style="color: #DC143C; font-size: 14px;">
+                <i class="bi bi-box-arrow-left" style="font-size: 1rem; color: #DC143C; padding-right: 8px;"></i>Logout</button>
+            </div>    
+        </div>
+    </nav>
+
+
+
+
+    <!-- Main content -->
+    <div class="main-content" style="margin-left: 200px; padding: 20px;">
+        <!-- Rounded Navbar -->
+        <nav class="navbar navbar-expand-lg rounded-5 mb-4" style="background-color: #161616; color: #ffffff; max-height: 150px;">
+            <div class="container">
+                <a class="navbar-brand ms-2" href="#" style="color: #ffffff; font-size: 18px;">Requests</a>
+                <div class="d-flex align-items-center">
+                    <a href="#" class="btn btn-light rounded-circle me-4">
+                        <i class="bi bi-bell-fill"> </i>
+                    </a>
+                    <span class="text-light me-3" style="font-size: 13px;">Jonah Wells</span>
+                    <a href="#" class="btn btn-light rounded-circle me-3">
+                        <i class="bi bi-person-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        
+         
+<!-- Brief Donattion records -->
+<div class="card rounded-4 main-card" style="width: auto; background-color: #f6f6f6; border-color: #f6f6f6;">
+    <div class="row mt-4 mb-4">
+        <div class="col-md-6">
+            <p id="donationsMade">0</p>
+            <h5>Donations Made</h5>
+        </div>
+        <div class="col-md-6">
+            <p id="lastDonationDate">--/--/----</p>
+            <h5>Last Donation</h5>
+        </div>
+    </div>
+</div>
+
+
+
+
+<!-- REQUESTS NAV BAR -->
+<div class="card rounded-4 mt-5 mb-5 main-card" style="width: auto; background-color: #f6f6f6; border-color: #f6f6f6;">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active request_nav_link" id="new-tab" data-bs-toggle="tab" href="#new-content">
+                New
+                <!-- Badge -->
+                <span id="new-tab-badge" class="badge bg-danger" style="display: none;">0</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link request_nav_link" id="accepted-tab" data-bs-toggle="tab" href="#accepted-content">Accepted</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link request_nav_link" id="completed-tab" data-bs-toggle="tab" href="#completed-content">Completed</a>
+        </li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane fade show active" id="new-content">
+            <!-- Content for New tab -->
+            <p>New Tab Content Goes Here</p>
+        </div>
+        <div class="tab-pane fade" id="accepted-content">
+            <!-- Content for Accepted tab -->
+            <p>Accepted Tab Content Goes Here</p>
+        </div>
+        <div class="tab-pane fade" id="completed-content">
+            <!-- Content for Completed tab -->
+            <p>Completed Tab Content Goes Here</p>
+        </div>
+    </div>
+</div>
+
+    
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="myscripts.js"></script>
+
+    
+</body>
+</html>
