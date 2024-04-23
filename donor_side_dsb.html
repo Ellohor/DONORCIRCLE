@@ -11,31 +11,33 @@
 <body class="text-center">
 
     <!-- Sidebar -->
-    <nav class="navbar navbar-dark flex-column align-items-center fixed-top side_bar">
-        <div class="container-fluid">
-            <a class="navbar-brand mt-3 mb-5 mx-auto" href="#">
-                <img src="img/JUST_LOGO_RED.png" alt="Logo" class="side_bar_logo">
-            </a>
-            <ul class="nav nav-pills sidebar_nav_pills flex-column mt-3 mb-5 side_bar_alignment h6">
-                <li class="nav-item mt-2 mb-2">
-                    <a class="nav-link side_links active" href="#" onclick="setActiveTab(this)" ><i class="bi bi-grid-1x2-fill side_icons"></i>Dashboard</a>
-                </li>
-                <li class="nav-item mt-2 mb-2">
-                    <a class="nav-link side_links" href="#" onclick="setActiveTab(this)" ><i class="bi bi-inboxes-fill side_icons"></i>Requests</a>
-                </li>
-                <li class="nav-item mt-2 mb-2">
-                    <a class="nav-link side_links" href="#" onclick="setActiveTab(this)" ><i class="bi bi-archive-fill side_icons"></i>History</a>
-                </li>
-                <li class="nav-item mt-2 mb-5">
-                    <a class="nav-link side_links" href="#" onclick="setActiveTab(this)" ><i class="bi bi-gear-fill side_icons"></i>Settings</a>
-                </li>
-            </ul>
-            <div class="mt-5 mx-auto">
+    <!-- HTML -->
+<nav class="navbar navbar-dark flex-column align-items-center fixed-top side_bar">
+    <div class="container-fluid">
+        <a class="navbar-brand mt-3 mb-5 mx-auto" href="#">
+            <img src="img/JUST_LOGO_RED.png" alt="Logo" class="side_bar_logo">
+        </a>
+        <ul class="nav nav-pills sidebar_nav_pills flex-column mt-3 mb-5 side_bar_alignment h6">
+            <li class="nav-item mt-2 mb-2">
+                <a class="nav-link side_links active" href="donor_side_dsb.html" onclick="setActiveTab(this)"><i class="bi bi-grid-1x2-fill side_icons"></i>Dashboard</a>
+            </li>
+            <li class="nav-item mt-2 mb-2">
+                <a class="nav-link side_links" href="Requests_donorside.html" onclick="setActiveTab(this)"><i class="bi bi-inboxes-fill side_icons"></i>Requests</a>
+            </li>
+            <li class="nav-item mt-2 mb-2">
+                <a class="nav-link side_links" href="Appointments_donorside.html" onclick="setActiveTab(this)"><i class="bi bi-journal-medical side_icons"></i>Appointments</a>
+            </li>
+            <li class="nav-item mt-2 mb-5">
+                <a class="nav-link side_links" href="History_donorside.html" onclick="setActiveTab(this)"><i class="bi bi-archive-fill side_icons"></i>History</a>
+            </li>
+        </ul>
+        <div class="mt-5 mx-auto">
             <button class="btn mt-5 mb-2 mx-auto" style="color: #DC143C; font-size: 14px;">
                 <i class="bi bi-box-arrow-left" style="font-size: 1rem; color: #DC143C; padding-right: 8px;"></i>Logout</button>
-            </div>    
-        </div>
-    </nav>
+        </div>    
+    </div>
+</nav>
+
     
 
 
@@ -46,11 +48,8 @@
             <div class="container">
                 <a class="navbar-brand ms-2" href="#" style="color: #ffffff; font-size: 18px;">Dashboard</a>
                 <div class="d-flex align-items-center">
-                    <a href="#" class="btn btn-light rounded-circle me-4">
-                        <i class="bi bi-bell-fill"> </i>
-                    </a>
                     <span class="text-light me-3" style="font-size: 13px;">Jonah Wells</span>
-                    <a href="#" class="btn btn-light rounded-circle me-3">
+                    <a href="#" class="btn btn-light rounded-circle me-4">
                         <i class="bi bi-person-fill"></i>
                     </a>
                 </div>

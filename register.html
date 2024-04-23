@@ -21,55 +21,66 @@
 
         <!--SIGN UP/REGISTER FORM-->
       
-      <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-8 p-0 mx-auto">
-                <div class="sign-in-container">
-                    <div class="sign-in-form">
-                        <h1 class="text-center mb-4">Sign Up</h1>
-                        <form>
-                          <div class="form-floating mb-3">
-                            <input type="text" class="form-control" id="floatingInput" placeholder="John">
-                            <label for="floatingInput">First Name</label>
-                          </div>
-
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 p-0 mx-auto">
+                    <div class="sign-in-container">
+                        <div class="sign-in-form">
+                            <h1 class="text-center mb-4">Sign Up</h1>
+                            <form>
+                              <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="John">
+                                <label for="floatingInput">First Name</label>
+                              </div>
+    
+                                <div class="form-floating mb-3">
+                                  <input type="text" class="form-control" id="floatingInput" placeholder="Doe">
+                                  <label for="floatingInput">Last Name</label>
+                                </div>
+    
+                                <div class="form-floating mb-3">
+                                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                  <label for="floatingInput">Email address</label>
+                                </div>
+    
+                                <div class="form-floating mb-3">
+                                  <input type="tel" class="form-control" id="floatingInput" placeholder="+234 xxx xxx xxxx">
+                                  <label for="floatingInput">Phone Number</label>
+                                </div>
+    
+                                <!-- Role selection dropdown -->
                             <div class="form-floating mb-3">
-                              <input type="text" class="form-control" id="floatingInput" placeholder="Doe">
-                              <label for="floatingInput">Last Name</label>
+                                <select class="form-select" id="roleSelect">
+                                    <option value="" disabled selected>----</option>
+                                    <option value="donor">Donor</option>
+                                    <option value="recipient">Recipient</option>
+                                    <option value="hospital">Hospital</option>
+                                </select>
+                                <label for="roleSelect">Select Role</label>
                             </div>
-
-                            <div class="form-floating mb-3">
-                              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-                              <label for="floatingInput">Email address</label>
-                            </div>
-
-                            <div class="form-floating mb-3">
-                              <input type="tel" class="form-control" id="floatingInput" placeholder="+234 xxx xxx xxxx">
-                              <label for="floatingInput">Phone Number</label>
-                            </div>
-
-                            <div class="form-floating mb-3">
-                              <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
-                              <label for="floatingPassword">Password</label>
-                            </div>
-
-                            <div class="form-floating mb-2">
-                              <input type="password" class="form-control" id="floatingPassword" placeholder="Confirm Password">
-                              <label for="floatingPassword">Confirm Password</label>
-                            </div>
-
-                            <div class="form-text mb-3">Must be 8-20 characters long.</div>
-
-                            <div class="d-grid gap-2">
-                                <button type="submit" class="btn btn-primary mx-auto" style="background-color: #DC143C; border-color: #DC143C; width: 400px;">Sign Up</button>
-                            </div>
-                            <div class="form-text mb-3 mt-3"><a href="#" style="color: #DC143C">Already have an Account? Log In</a></div>
-                        </form>
+    
+                                <div class="form-floating mb-3">
+                                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                                  <label for="floatingPassword">Password</label>
+                                </div>
+    
+                                <div class="form-floating mb-2">
+                                  <input type="password" class="form-control" id="floatingPassword" placeholder="Confirm Password">
+                                  <label for="floatingPassword">Confirm Password</label>
+                                </div>
+    
+                                <div class="form-text mb-3">Must be 8-20 characters long.</div>
+    
+                                <div class="d-grid gap-2">
+                                    <button type="submit" class="btn btn-primary mx-auto" style="background-color: #DC143C; border-color: #DC143C; width: 400px;">Sign Up</button>
+                                </div>
+                                <div class="form-text mb-3 mt-3"><a href="#" style="color: #DC143C">Already have an Account? Log In</a></div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
       
 
   

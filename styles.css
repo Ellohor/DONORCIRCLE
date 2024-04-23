@@ -145,7 +145,7 @@ body {
 .side_bar{
     left: 0; 
     height: 100vh; 
-    width: 190px; 
+    width: 198px; 
     background-color: #f6f6f6;
 }
 
@@ -252,4 +252,13 @@ body {
 
 .timer-label {
     font-size: 14px; /* Adjust as needed */
+}
+
+.custom-hr {
+    margin-top: 30px; /* Add space on top */
+    height: 2px; /* Reduce the height */
+    width: 95%; /* Set the width */
+    background-color: #000; /* Set the color */
+    margin-left: auto; /* Center the line */
+    margin-right: auto; /* Center the line */
 }

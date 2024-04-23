@@ -1,12 +1,16 @@
-// SIDE BAR ACTIVE LINK SCRIPT    
+// SIDE BAR ACTIVE LINK SCRIPT        
 function setActiveTab(element) {
+    console.log("Clicked element:", element);
+    
     // Remove active class from all nav links
     var navLinks = document.querySelectorAll('.nav-link');
     navLinks.forEach(function(link) {
+        console.log("Removing active class from:", link);
         link.classList.remove('active');
     });
     
     // Add active class to the clicked nav link
+    console.log("Adding active class to clicked element:", element);
     element.classList.add('active');
 }
 
@@ -124,3 +128,7 @@ function simulateNewRequest() {
 
     // Simulate a new request after 3 seconds (replace this with your actual logic)
     setTimeout(simulateNewRequest, 3000);
+
+
+
+
