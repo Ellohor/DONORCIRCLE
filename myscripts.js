@@ -1,18 +1,4 @@
-// SIDE BAR ACTIVE LINK SCRIPT        
-function setActiveTab(element) {
-    console.log("Clicked element:", element);
-    
-    // Remove active class from all nav links
-    var navLinks = document.querySelectorAll('.nav-link');
-    navLinks.forEach(function(link) {
-        console.log("Removing active class from:", link);
-        link.classList.remove('active');
-    });
-    
-    // Add active class to the clicked nav link
-    console.log("Adding active class to clicked element:", element);
-    element.classList.add('active');
-}
+
 
 // COUNTDOWN TIMER SCRIPT
 let donationMade = false; // Variable to track if a donation has been made
