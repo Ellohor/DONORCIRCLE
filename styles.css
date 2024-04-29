@@ -262,3 +262,15 @@ body {
     margin-left: auto; /* Center the line */
     margin-right: auto; /* Center the line */
 }
+
+/*style for request and app statuses*/
+.success {background-color: #4CAF50;} /* Green */
+   .info {background-color: #2196F3;} /* Blue */
+   .warning {background-color: #ff9800;} /* Orange */
+   .danger {background-color: #f44336;} /* Red */
+   .other {background-color: #e7e7e7; color: black;} /* Gray */
+
+   .label {
+    border-radius: 999px; /* This value makes the label fully rounded */
+    padding: 0.1em 0.5em 0.3em; /* Adjust padding as needed */
+}
