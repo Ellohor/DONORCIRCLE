@@ -227,32 +227,6 @@ body {
 }
 
 
-
-/* TIMER CSS*/
-
-.timer-container {
-    display: flex;
-}
-
-.timer-box {
-    display: flex;
-}
-
-.timer-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 10px; /* Adjust as needed */
-}
-
-.timer-value {
-    font-size: 80px; /* Adjust as needed */
-}
-
-.timer-label {
-    font-size: 14px; /* Adjust as needed */
-}
-
 .custom-hr {
     margin-top: 30px; /* Add space on top */
     height: 2px; /* Reduce the height */
@@ -300,3 +274,40 @@ body {
 .prof-head {
     background-color: rgba(220, 20, 60, 0.2);
 }
+
+
+
+/* HOSPITAL SIDEBAR CSS */
+.hos_sidebar_nav_pills .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.5) !important; /* low-opacity color of #DC143C */
+}
+
+.hos_side_bar_alignment{
+    text-align: left;
+    margin-left: 10px;
+}
+
+.hos_side_icons{
+    font-size: 1rem; 
+    color: #ffffff; 
+    padding-right: 7px;
+    
+}
+
+.hos_side_links{
+    color: #ffffff !important; 
+    font-size: 14px !important;
+}
+
+.hospital_side_bar{
+    left: 0; 
+    height: 100vh; 
+    width: 236px; 
+    background-color: #212529;
+}
+
+.hos_side_bar_logo{
+    max-height: 50px;
+}
+
+/* HOSPITAL SIDEBAR CSS END */

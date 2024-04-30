@@ -1,7 +1,3 @@
-$(function () {
-  $('#datetimepicker').datetimepicker();
-});
-
 
 // // Brief donation records script
 // // Initial donation records
