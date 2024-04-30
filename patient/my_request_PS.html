@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HISTORY</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>MY REQUESTS</title>
+    <link rel="stylesheet" href="../css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
@@ -14,20 +14,20 @@
     <nav class="navbar navbar-dark flex-column align-items-center fixed-top side_bar">
         <div class="container-fluid">
             <a class="navbar-brand mt-3 mb-5 mx-auto" href="#">
-                <img src="img/JUST_LOGO_RED.png" alt="Logo" class="side_bar_logo">
+                <img src="../img/JUST_LOGO_RED.png" alt="Logo" class="side_bar_logo">
             </a>
             <ul class="nav nav-pills sidebar_nav_pills flex-column mt-3 mb-5 side_bar_alignment h6">
                 <li class="nav-item mt-2 mb-2">
-                    <a class="nav-link side_links active" href="donor_side_dsb.html" ><i class="bi bi-grid-1x2-fill side_icons"></i>Dashboard</a>
+                    <a class="nav-link side_links active" href="patient_side_dsb.html" ><i class="bi bi-grid-1x2-fill side_icons"></i>Dashboard</a>
                 </li>
                 <li class="nav-item mt-2 mb-2">
-                    <a class="nav-link side_links" href="Requests_donorside.html" ><i class="bi bi-inboxes-fill side_icons"></i>Requests</a>
+                    <a class="nav-link side_links" href="my_request_PS.html" ><i class="bi bi-inboxes-fill side_icons"></i>My Requests</a>
                 </li>
                 <li class="nav-item mt-2 mb-2">
-                    <a class="nav-link side_links" href="Appointments_donorside.html" ><i class="bi bi-journal-medical side_icons"></i>Appointments</a>
+                    <a class="nav-link side_links" href="appointments_PS.html" ><i class="bi bi-journal-medical side_icons"></i>Appointments</a>
                 </li>
                 <li class="nav-item mt-2 mb-5">
-                    <a class="nav-link side_links" href="History_donorside.html" ><i class="bi bi-archive-fill side_icons"></i>History</a>
+                    <a class="nav-link side_links" href="history_PS.html" ><i class="bi bi-archive-fill side_icons"></i>History</a>
                 </li>
             </ul>
             <div class="mt-5 mx-auto">
@@ -45,7 +45,7 @@
         <!-- Rounded Navbar -->
         <nav class="navbar navbar-expand-lg rounded-5 mb-4" style="background-color: #161616; color: #ffffff; max-height: 150px;">
             <div class="container">
-                <a class="navbar-brand ms-2" href="#" style="color: #ffffff; font-size: 18px;">History</a>
+                <a class="navbar-brand ms-2" href="#" style="color: #ffffff; font-size: 18px;">My Requests</a>
                 <div class="d-flex align-items-center">
                     <span class="text-light me-3" style="font-size: 13px;">Jonah Wells</span>
                     <a href="#" class="btn btn-light rounded-circle me-4">
@@ -54,32 +54,79 @@
                 </div>
             </div>
         </nav>
-        
-         
+
+
 
 
 <!-- REQUESTS NAV BAR -->
-<div class="rounded-3 mt-4 mb-4 " style="width: auto; background-color: #f6f6f6; border-color: #f6f6f6; height:auto ;">
-    <ul class="nav nav-fill">
+<div class="rounded-2 mt-5 mb-4" style="width: auto; background-color: #f6f6f6; border-color: #f6f6f6; height:auto ;">
+    <ul class="nav nav-underline nav-fill">
         <li class="nav-item">
-            <a class="nav-link request_nav_link active" id="completed-tab" data-bs-toggle="tab" href="#completed-content"><h6>Completed Donations</h6></a>
+            <a class="nav-link active request_nav_link" id="new-tab" data-bs-toggle="tab" href="#new-content">Sent Requests</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link request_nav_link" id="accepted-tab" data-bs-toggle="tab" href="#accepted-content">Accepted Requests</a>
         </li>
     </ul>
-</div>
+    </div>
 
-<div class="card rounded-4 mb-5 main-card" style="width: auto; background-color: #f6f6f6; border-color: #f6f6f6;">
+    <div class="card rounded-2 mb-3 main-card shadow" style="width: auto; background-color: #f6f6f6; border-color: #f6f6f6;">
     <div class="tab-content">
-        <!-- Content for Completed tab -->
+        <!-- Content for New tab -->
         <div class="tab-pane fade show active" id="new-content">
             <table class="table table-hover table-striped">
                 <thead class="table-dark">
                     <tr>
-                        <th scope="col" >Name</th>
+                        <th scope="col" >Patient Name</th>
+                        <th scope="col">Blood Group</th>
+                        <th scope="col">Reason</th>
+                        <th scope="col">Emergency Level</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>Otto</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>Otto</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>Otto</td>
+                    </tr>
+                
+        
+                </tbody>
+            
+            </table>
+        
+            
+        </div>
+
+
+
+
+    
+        <!-- Content for Accepted tab -->
+        <div class="tab-pane fade" id="accepted-content">
+            <table class="table table-hover table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th scope="col" >Donor Name</th>
                         <th scope="col">Blood Group</th>
                         
                         <th scope="col">Reason</th>
-                        <th scope="col">Hospital</th>
-                        <th scope="col">Date</th>
+                        <th scope="col">Emergency Level</th>
                         <th scope="col">Status</th>
                        
                     </tr>
@@ -90,45 +137,25 @@
                         <td>Mark</td>
                         <td>Otto</td>
                         <td>@mdo</td>
-                        <td>@mdo</td>
-                        <td><span class="label success rounded-2 ">completed</span></td>
+                        <td><span class="label info rounded-2 ">waiting</span></td>
 
                     </tr>
-
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-                        <td><span class="label success rounded-2 ">completed</span></td>
-
-                    </tr>
-
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-                        <td><span class="label success rounded-2 ">completed</span></td>
-
-                    </tr>
-                
-        
                 </tbody>
             
             </table>
+            
+        </div>
+
     </div>
-</div>
-</div>
+    </div>
+    
 
     
 
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="myscripts.js"></script>
+    <script src="../js/myscripts.js"></script>
 
     
 </body>
