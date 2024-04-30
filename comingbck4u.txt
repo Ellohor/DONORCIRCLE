@@ -7,3 +7,5 @@
                         <td><span class="label success rounded-2 ">ongoing</span></td>
 
                     </tr>
+
+ <button type="button" class="btn btn-primary rounded-5" style="background-color: #dc143c; border-color: #dc143c;"><a href="donate_blood.html" style="text-decoration: none;color: white;">DONATE<i class="bi bi-arrow-right" style="font-size: 1rem; padding-left: 9px;"></i></a></button>            

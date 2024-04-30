@@ -274,3 +274,24 @@ body {
     border-radius: 999px; /* This value makes the label fully rounded */
     padding: 0.1em 0.5em 0.3em; /* Adjust padding as needed */
 }
+/*style for request and app statuses END*/
+
+
+
+
+/*style for Search bar and results card*/
+.search-bar {
+    max-width: 500px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the search bar */
+}
+
+.search-card {
+    width: 500px; /* Set the width of each request card */
+    background-color: #ffffff; /* Background color for request cards */
+    border-color: #ffffff; /* Border color for request cards */
+    margin-left: 20px;
+    flex: 0 0 auto; /* Prevent cards from shrinking */
+   
+}
+
+/*style for Search bar END*/
