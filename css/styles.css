@@ -294,3 +294,9 @@ body {
 }
 
 /*style for Search bar END*/
+
+
+/*style for profile headers*/
+.prof-head {
+    background-color: rgba(220, 20, 60, 0.2);
+}
